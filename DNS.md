@@ -34,3 +34,12 @@ Best practices voor security
 * VLAN's veranderen
 * Native and management vlans veranderen
 * CDP uitschakelen --> Cisco Discovery Package
+* 
+##Server
+* Goed poorten beheren
+* Monitoring
+* Active Directory
+* Encryptie
+* DNS alleen toelaten voor users in uw AD
+* AGDLP toepassen
+* Systeembeheerders enkel toegang geven
