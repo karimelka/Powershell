@@ -7,17 +7,19 @@
 *Updates/Patches
 *Google Spedy
 
-#Security
-##Hoogste Level
+# Security
+## Hoogste Level
 * Edge firewalle
 * IDP
 * IPS
 * PCAP
 * DMZ
-##Routers
+## Routers
 * ACLs
 * BCP38
 * Private Adressing
 * Router Adversiments
 * Advertisements in Routing Protocollen beveiligen met Authenticatie en Encryptie
 * Poorten Uitzetten
+* SSH inschakelen
+* Telnet Desactiveren
