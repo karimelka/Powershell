@@ -33,3 +33,4 @@ Best practices voor security
 * Mac-Adressering
 * VLAN's veranderen
 * Native and management vlans veranderen
+* CDP uitschakelen --> Cisco Discovery Package
