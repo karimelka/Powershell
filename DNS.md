@@ -27,3 +27,9 @@ Best practices voor security
 * SSH inschakelen
 * Telnet Desactiveren
 * Wachtwoorden encrypteren --> Beleid
+* 
+
+##Switch
+* Mac-Adressering
+* VLAN's veranderen
+* Native and management vlans veranderen
