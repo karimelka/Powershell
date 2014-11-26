@@ -53,20 +53,20 @@ Chapter 3
 ----------
 Pipeline : Takes the output from one command and sets it as input to another command
 
-sort --> through the pipeline
+* sort --> through the pipeline
 
-Get-Service | sort name,status -Descending --> by property
-Get-Service | sort name,status --> by value
-Group-Object : Get-Sort-Group
+* Get-Service | sort name,status -Descending --> by property
+* Get-Service | sort name,status --> by value
+* Group-Object : Get-Sort-Group
 
-Where-Object
+* Where-Object
 
 Chapter 4
 ----------
-Format-Table
-Format-List
-Format-Wide -AutoSize -Column (Get-Help ...)
-Out-GridView
+* Format-Table
+* Format-List
+* Format-Wide -AutoSize -Column (Get-Help ...)
+* Out-GridView
 
 Chapter 5
 ----------
@@ -77,7 +77,7 @@ Export-CliXML
 
 Chapter 6
 ----------
-Get-PSProvider : get all providers
+* Get-PSProvider : get all providers
  - Alias
  - Environemnt
  - FileSystem
@@ -85,62 +85,62 @@ Get-PSProvider : get all providers
  - Registry
  - Variable
 
-Create new alias
+* Create new alias
 	Set-Location alias:
 	New-Item -Name Processes -Value Get-Process
 
 Chapter 7
 ----------
-DCOM = Distributed Component Object Model
-RPC : Remote Procedure Call
+* DCOM = Distributed Component Object Model
+* RPC : Remote Procedure Call
 
-Enable-PSRemoting
-Enter-PSSession -computername DC
+* Enable-PSRemoting
+* Enter-PSSession -computername DC
 
 Chapter 8
 ----------
-WMI = WIndows Management Instrumentation
+* WMI = WIndows Management Instrumentation
 
-Get-WmiObject : connection into WMI
-Get-WmiObject -list "*bios*"
+* Get-WmiObject : connection into WMI
+* Get-WmiObject -list "*bios*"
 
 Chapter 9 
 ----------
-Get-CimClass : wildcards for the classname parameter to enable you to quickly identify potential WMI classes
+* Get-CimClass : wildcards for the classname parameter to enable you to quickly identify potential WMI classes
 
 Chapter 10
 -----------
 
 Chapter 11
 -----------
-foreach
+* foreach
 foreach($element in $dc){}
 
-while
+* while
 While($i -lt 5)
 	{}
 
-DoWhile
+* DoWhile
 Do
 {}
 While($i lt -5)
 
-Casting [String]A
+* Casting [String]A
 
-DoUntil
+* DoUntil
 Do
 {}
 Until(vwd)
 
-For
+* For
 for($i=5;*i<=5;$i++)
 
-If
+* If
 If(vwd)
 Else
 EndIf
 
-Switch
+* Switch
 Switch($a)
 {
 	1{'$a=1'}
@@ -151,18 +151,18 @@ Switch($a)
 
 Chapter 12
 ----------
-Standaard Functie
+* Standaard Functie
 Function Verb-Noun
 {
 	#Code
 }
 
-Variabele
+* Variabele
 Function Verb-Noun()
 {
 	#Code
 }
-Meederen Variabelen
+* Meederen Variabelen
 Function Verb-Noun()
 {
 	Param([int]$p1,[string]$p2,$p3)	
