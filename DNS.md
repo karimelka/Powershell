@@ -8,6 +8,7 @@
 * Google Spedy
 
 # Security
+Best practices voor security 
 ## Hoogste Level
 * Edge firewalle
 * IDP
@@ -25,3 +26,4 @@
 * Poorten Uitzetten
 * SSH inschakelen
 * Telnet Desactiveren
+* Wachtwoorden encrypteren --> Beleid
