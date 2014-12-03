@@ -10,3 +10,6 @@ Client-PC  ``` Enter-PSSession <naam server>```
 
 #Nieuwe shares aanmaken
 ```New-SMBShare -Name Naam -Path Lokaalpad```
+
+#Shares
+```Get-WmiObject Win32_share```
